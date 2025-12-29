@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -29,9 +29,9 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          # github_token: ${{ secrets.GITHUB_TOKEN }} # For publishing to the same repository as the source, not for a different repository
-          personal_token: ${{ secrets.XinYBLOG }}
-          external_repository: XinY321/XinY321.github.io # Set the target repository
+          github_token: ${{ secrets.GITHUB_TOKEN }} # For publishing to the same repository as the source, not for a different repository
+          # personal_token: ${{ secrets.XinYBLOG }}
+          # external_repository: XinY321/XinY321.github.io # Set the target repository
           publish_dir: ./public
-          publish_branch: main # Set the target branch
+          publish_branch: gh-pages # Set the target branch
           # cname: xxx.com # If you have a custom domain
