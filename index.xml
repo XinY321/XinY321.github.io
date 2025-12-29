@@ -1,14 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://xiny321.github.io/</link><description>Recent content from My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Mon, 29 Dec 2025 15:44:11 +0800</lastBuildDate><atom:link href="https://xiny321.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Test</title><link>https://xiny321.github.io/post/test/</link><pubDate>Mon, 29 Dec 2025 15:44:11 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://xiny321.github.io/post/test/</guid><description>
-<![CDATA[<h1>Test</h1><p>Author: D-Sketon(xxx@example.com)</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://xiny321.github.io/</link><description>Recent content from My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Mon, 29 Dec 2025 16:33:52 +0800</lastBuildDate><atom:link href="https://xiny321.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>我的第一篇文章</title><link>https://xiny321.github.io/post/my-first-post/</link><pubDate>Mon, 29 Dec 2025 16:33:52 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://xiny321.github.io/post/my-first-post/</guid><description>
+<![CDATA[<h1>我的第一篇文章</h1><p>Author: D-Sketon(xxx@example.com)</p>
         
-          <p>香香香香</p>
-<p>之后给你讲讲怎么创建新文章</p>
-<p>现在先搞定github部署</p>
-<p>test</p>
+          <p>我的第一篇文章</p>
         
-        <hr><p>Published on 2025-12-29 at <a href='https://xiny321.github.io/'>My New Hugo Site</a>, last modified on 2025-12-29</p>]]></description></item><item><title>Hello World</title><link>https://xiny321.github.io/post/hello/</link><pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://xiny321.github.io/post/hello/</guid><description>
-<![CDATA[<h1>Hello World</h1><p>Author: D-Sketon(xxx@example.com)</p>
+        <hr><p>Published on 2025-12-29 at <a href='https://xiny321.github.io/'>My New Hugo Site</a>, last modified on 2025-12-29</p>]]></description></item><item><title>标题</title><link>https://xiny321.github.io/post/test1/</link><pubDate>Mon, 29 Dec 2025 16:31:52 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://xiny321.github.io/post/test1/</guid><description>
+<![CDATA[<h1>标题</h1><p>Author: D-Sketon(xxx@example.com)</p>
         
-          <p>💘 博麗 霊夢 💘</p>
+          <p>从这里开始才是正文，上面的必须要存在，必须要以这个格式，所以我推荐你直接从作者给的hello.md复制过来改一改</p>
+<p>三个参数分别对应
+title 这篇文章的标题，这个标题是最终在网页看到的文章标题，一定要放在英文的引号里面
+date 创建日期（一定要符合这个参考的格式，按我这个吧）
+lastmod 最后修改</p>
+<p>然后重要的是：文章对应的文件名，不要中文，只能是26个字母 - _ 数字这些组合
+其他的符号最好也不要</p>
+<p>所以一般就是
+xxx-xxx
+xxx_xxx
+xxx_12
+最好不要以数字开头</p>
+<p>给你演示一下怎么创建</p>
+<p>创建完了之后 建议先不要上传
+先在本地运行一下</p>
+<p>点击右上角这个 会弹出一个命令行终端（人话就是敲英文命令的地方）
+然后运行 hugo serve
+然后按住ctrl点击这个网址，可以访问本地
+确认本地没有问题之后，再上传</p>
+<p>上传可以直接在左边有一个分支树的logo
+叫源代码管理</p>
+<p>在这里填一下这次上传主要做了什么改动，填不填都行，或者直接填一个update。</p>
+<p>在这之前在命令行终端运行下 git add .命令
+再提交
+然后点提交 保存所有和更改</p>
+<p>命令行现在在运行刚刚的命令，需要先退出 ctrl+c退出</p>
         
-        <hr><p>Published on 2023-03-15 at <a href='https://xiny321.github.io/'>My New Hugo Site</a>, last modified on 2023-03-15</p>]]></description></item></channel></rss>
+        <hr><p>Published on 2025-12-29 at <a href='https://xiny321.github.io/'>My New Hugo Site</a>, last modified on 2025-12-29</p>]]></description></item></channel></rss>
