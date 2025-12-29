@@ -12,7 +12,7 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Mon, 29 Dec 2025 15:44:11 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 16:33:52 +0800</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -22,18 +22,15 @@
     
 
     <item>
-      <title>Test</title>
-      <link>http://localhost:1313/post/test/</link>
-      <pubDate>Mon, 29 Dec 2025 15:44:11 &#43;0800</pubDate>
+      <title>我的第一篇文章</title>
+      <link>http://localhost:1313/post/my-first-post/</link>
+      <pubDate>Mon, 29 Dec 2025 16:33:52 &#43;0800</pubDate>
       <author>xxx@example.com (D-Sketon)</author>
-      <guid>http://localhost:1313/post/test/</guid>
+      <guid>http://localhost:1313/post/my-first-post/</guid>
       <description>
-        <![CDATA[<h1>Test</h1><p>Author: D-Sketon(xxx@example.com)</p>
+        <![CDATA[<h1>我的第一篇文章</h1><p>Author: D-Sketon(xxx@example.com)</p>
         
-          <p>香香香香</p>
-<p>之后给你讲讲怎么创建新文章</p>
-<p>现在先搞定github部署</p>
-<p>test</p>
+          <p>我的第一篇文章</p>
         
         <hr><p>Published on 2025-12-29 at <a href='http://localhost:1313/'>My New Hugo Site</a>, last modified on 2025-12-29</p>]]>
       </description>
@@ -43,17 +40,29 @@
     
 
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/post/hello/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <title>标题</title>
+      <link>http://localhost:1313/post/test1/</link>
+      <pubDate>Mon, 29 Dec 2025 16:31:52 &#43;0800</pubDate>
       <author>xxx@example.com (D-Sketon)</author>
-      <guid>http://localhost:1313/post/hello/</guid>
+      <guid>http://localhost:1313/post/test1/</guid>
       <description>
-        <![CDATA[<h1>Hello World</h1><p>Author: D-Sketon(xxx@example.com)</p>
+        <![CDATA[<h1>标题</h1><p>Author: D-Sketon(xxx@example.com)</p>
         
-          <p>💘 博麗 霊夢 💘</p>
+          <p>从这里开始才是正文，上面的必须要存在，必须要以这个格式，所以我推荐你直接从作者给的hello.md复制过来改一改</p>
+<p>三个参数分别对应
+title 这篇文章的标题，这个标题是最终在网页看到的文章标题，一定要放在英文的引号里面
+date 创建日期（一定要符合这个参考的格式，按我这个吧）
+lastmod 最后修改</p>
+<p>然后重要的是：文章对应的文件名，不要中文，只能是26个字母 - _ 数字这些组合
+其他的符号最好也不要</p>
+<p>所以一般就是
+xxx-xxx
+xxx_xxx
+xxx_12
+最好不要以数字开头</p>
+<p>给你演示一下怎么创建</p>
         
-        <hr><p>Published on 2023-03-15 at <a href='http://localhost:1313/'>My New Hugo Site</a>, last modified on 2023-03-15</p>]]>
+        <hr><p>Published on 2025-12-29 at <a href='http://localhost:1313/'>My New Hugo Site</a>, last modified on 2025-12-29</p>]]>
       </description>
       
     </item>
