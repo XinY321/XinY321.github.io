@@ -10,3 +10,5 @@ title = 'Test'
 之后给你讲讲怎么创建新文章
 
 现在先搞定github部署
+
+test
