@@ -30,7 +30,11 @@ xxx_12
 <p>在这里填一下这次上传主要做了什么改动，填不填都行，或者直接填一个update。</p>
 <p>在这之前在命令行终端运行下 git add .命令
 再提交
-然后点提交 保存所有和更改</p>
+然后点提交 保存所有和更改
+这样左边没有文件，才是成功的提交，否则刚刚那样不算，需要先运行一下 git add .
+然后同步更改（同步更改的意思就是上传）（上传操作一定要保证github魔法上网</p>
+<p>如何判断是否上传成功，可以看这里的云朵图标是不是在最上面</p>
+<p>然后等待github跑完job 就可以刷新下看到了（刷新没有用就ctrl + f5强制刷新</p>
 <p>命令行现在在运行刚刚的命令，需要先退出 ctrl+c退出</p>
         
         <hr><p>Published on 2025-12-29 at <a href='https://xiny321.github.io/'>My New Hugo Site</a>, last modified on 2025-12-29</p>]]></description></item></channel></rss>
